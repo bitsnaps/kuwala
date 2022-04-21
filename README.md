@@ -1,6 +1,8 @@
 [![Slack](https://img.shields.io/badge/slack-chat-orange.svg)](https://join.slack.com/t/kuwala-community/shared_invite/zt-l5b2yjfp-pXKFBjbnl7_P3nXtwca5ag)
 ![License](https://img.shields.io/github/license/kuwala-io/kuwala)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
 <img src="./docs/images/kuwala_header_github.png" width="100%" />
 
 <p align="center">
