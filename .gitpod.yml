@@ -12,7 +12,7 @@ tasks:
   - init: |
       echo "launch the database in the background: docker-compose --profile database up"
       echo "try jupyter: docker-compose run --service-ports jupyter"
-      cd kuwala/core/cli/src
+      cd kuwala/core/cli
       pip3 install --no-cache-dir -r requirements.txt
     command: |
       cd /workspace/kuwala/kuwala/core/cli/src
