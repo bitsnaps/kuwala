@@ -1,0 +1,19 @@
+image: gitpod/workspace-full
+
+ports:
+- port: 8080
+  onOpen: open-preview
+- port: 5432 # PostgreSQL
+  onOpen: ignore
+  
+
+tasks:
+  - init: |
+      echo "launch the database in the background:"
+      #docker-compose --profile database up
+      echo "try jupyter:"
+      #docker-compose run --service-ports jupyter
+    command: |
+      cd kuwala/core/cli/src    
+      python3 main.py
+  - command: gp await-port 8080 && sleep 3 && gp preview $(gp url 8080)
